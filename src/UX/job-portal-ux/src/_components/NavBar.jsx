@@ -20,8 +20,8 @@ class NavBar extends React.Component {
                                 }
                                 {!this.props.home && this.props.jobtab && !this.props.myjobstab &&
                                     <ul className="nav navbar-nav">
-                                    <li className="active"><Link to="/home">Home</Link></li>
-                                    <li><Link to="/postjob">Post Job</Link></li>
+                                    <li><Link to="/home">Home</Link></li>
+                                    <li className="active"><Link to="/postjob">Post Job</Link></li>
                                     <li><Link to="/myjobs">My Jobs</Link></li>
                                     </ul>
                                 }
